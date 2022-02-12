@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+*{
+    text-decoration: none;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 1.3rem;
+}
+.logo{
+    width: 5%;
+}
+ul{
+    margin-left: 1rem;
+}
+.icons{
+    margin-top: .4rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    color: #eee;
+}
+.icons .bi-cart{
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    margin-right: .5rem;
+}
+.icons .bi-heart{
+    font-size: 1.7rem;
+    margin-right: .5rem;
+}
+.icons .bi-person-circle{
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background-color: burlywood;
+}
+.cover{
+    position: relative;
+    width: 100%;
+}
+.cover .coverpage{
+    width: 100%;
+    height: 40rem;
+}
+.cover #btn{
+    position: absolute;
+    top: 61%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cover #btn:hover{
+    background-color: burlywood;
+}
+.video{
+    width: 100%;
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 2%;
+    box-shadow: 15px 10px 20px burlywood;
+}
+.body .row #content{
+    margin: 3rem;
+    text-align: center;
+}
+.menu{
+    position: relative;
+    width: 100%;
+}
+.menu-bg{
+    width: 100%;
+}
+.menu h3{
+    position: absolute;
+    font-size: 2.5rem;
+    top: 5%;
+    left: 30%;
+}
+.menu .card{
+    position: absolute;
+    font-size: 2.5rem;
+    top: 20%;
+    left: 15%;
+    width: 30%;
+    height: 11rem;
+    transition: transform 0.2s ease;
+    box-shadow: 5px 5px 5px 5px burlywood;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.menu #card2{
+    position: absolute;
+    font-size: 2.5rem;
+    top: 20%;
+    left: 55%;
+    width: 30%;
+    height: 11rem;
+    transition: transform 0.2s ease;
+    box-shadow: 5px 5px 5px 5px burlywood;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+#card2:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    form{
+        width: 50%;
+        margin-left: 1rem;
+    }
+    .icons{
+        margin-left: 1rem;
+    }
+    .video{
+        width: 90%;
+        margin: 1rem 1rem;
+    }
+    .body .row #content{
+        width: 70%;
+        margin-left: 4rem;
+    }
+    .menu-bg{
+        height: 30rem;
+        border: 1px solid black;
+    }
+    .menu h3{
+        font-size: 1.6rem;
+        right: 25%;
+    }
+    .menu .card{
+        top: 9rem;
+        left: 2rem;
+    }
+    .menu #card2{
+        top: 9rem;
+        left: 11rem;
+    }
+    .card h5{
+        font-size: .8rem;
+    }
+    .card-text{
+        font-size: 11px;
+    }
+}
